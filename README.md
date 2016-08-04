@@ -1,2 +1,2 @@
-# Asynchronous Produder Consumer
+# Asynchronous Producer Consumer
 A small protocol for producer-consumer thread synchronization. The producer state machine produces data and waits until consumer consumes it. This idea can be adapted to any platforms, especially for hardware circuits specified in VHDL or Verilog. Two threads/process can even if operate in different clock domains, the protocol ensures no data is lost i.e, intermediate FIFOs can be avoided. The protocol is adapted to send data from FPGA to a processor which were running on different clock domains.
